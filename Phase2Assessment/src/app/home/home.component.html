@@ -1,0 +1,34 @@
+<div class="container">
+    <h2>Search Items Here</h2>
+    <form  [formGroup]="userForm" (ngSubmit)="submit()">
+        <div formArrayName = 'items'>
+            <p>Items | <span class='glyphicon glyphicon-plus' (click)='addItem()'></span></p>
+            <div class="input-group" *ngFor="let itemControl of getitems.controls;let i=index">
+                <input type="text" class="form-control" [formControlName]="i" placeholder="Item {{i+1}}">
+                <span class = 'input-group-addon glyphicon glyphicon-trash' (click)='deleteItem(i)'></span>
+            </div>
+        </div>
+        <br><button class="btn btn-primary" type="submit">Submit</button><br>
+    <h2 *ngIf = "show">Available Items</h2>
+    <table class="table table-hover table-bordered" *ngIf = "show">
+        <thead>
+            <tr>
+                <th>Name</th><th>Price</th><th>Available</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = 'let i of requestedItems'>
+                <td>{{i.name | titlecase}}</td><td>{{i.price}}</td><td>{{i.available}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <div formArrayName = 'orders' *ngIf='show'>
+        <p>Order | <span class='glyphicon glyphicon-plus' (click)='addOrder()'></span></p>
+        <div class="input-group" *ngFor="let itemControl of getorders.controls;let i=index">
+            <input type="text" class="form-control" [formControlName]="i" placeholder="Item {{i+1}},Quantity">
+            <span class = 'input-group-addon glyphicon glyphicon-trash' (click)='deleteOrder(i)'></span>
+        </div>
+    </div>
+    <br><button class= "btn btn-primary" type="button" *ngIf="show" (click)="payment()">Order</button>
+
+</form>

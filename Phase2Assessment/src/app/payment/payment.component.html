@@ -1,0 +1,12 @@
+<h2 style="text-align: center;">Please select the Payment Mode</h2>
+<div class="container">
+    <button class="btn btn-primary" [routerLink]="['/order']" style="margin-left: 160px;">Cash On Delivery</button>
+    <button class="btn btn-primary" style="margin: 10px;" (click)="debitOrCredit= true">Debit Card</button>
+    <button class="btn btn-primary" style="margin: 10px;" (click)="debitOrCredit= true">Credit Card</button>
+    <div *ngIf="debitOrCredit">
+        <h2>Enter your Credentials</h2>
+        Card Number:<input type="text" name="cardno">
+        CVV:        <input type = "text" name="cvv">
+        <button class="btn btn-primary" [routerLink]="['/order']">Submit</button>
+    </div>
+</div>

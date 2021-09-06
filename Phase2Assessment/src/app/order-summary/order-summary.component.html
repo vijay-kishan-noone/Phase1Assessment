@@ -1,0 +1,18 @@
+<div class="container">
+    <h2>Your Order Details</h2>
+    <table class="table table-hover table-bordered">
+        <thead>
+            <tr>
+                <th>Name</th><th>Qty</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor = 'let i of list'>
+                <td>{{i.name | titlecase}}</td><td>{{i.qty}}</td>
+            </tr>
+        </tbody>
+    </table>
+    <h2>We have received your order.</h2>
+    <br><a [routerLink]="['/home']">Wanna Order Again!</a>
+    <a [routerLink]="['/login']" style="margin: 30px;">I wanna Logout!</a>
+</div>
