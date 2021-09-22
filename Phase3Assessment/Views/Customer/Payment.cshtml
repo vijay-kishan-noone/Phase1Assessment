@@ -1,0 +1,28 @@
+﻿@{
+    ViewData["Title"] = "Payment";
+}
+
+<h1>Payment</h1>
+
+<h4>Provide your card details here</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form method="post">            
+            <div class="form-group">
+                <label for="CardNo." class="control-label">Card Number</label>
+                <input name="CardNo." class="form-control" />
+            </div>
+            <div class="form-group">
+                <label for="CVV" class="control-label">CVV</label>
+                <input name="CVV" class="form-control" type="password"/>
+            </div>
+            <div class="form-group">
+                <input asp-action = "Order" asp-route-id ="@ViewBag.id" type="submit" value="Submit" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+<div>
+    <a asp-action="index">Changed your mind?</a>
+</div>

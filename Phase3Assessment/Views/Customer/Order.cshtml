@@ -1,0 +1,47 @@
+﻿@model Phase3Assessment.Models.Laptop
+
+@{
+    ViewData["Title"] = "Order";
+}
+
+<h1>We have received your order</h1>
+
+<div>
+    <h4>Order Details</h4>
+    <hr />
+    <dl class="row">
+        <dt class = "col-sm-2">
+            <label>Laptop Name</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Title)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Description)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Description)
+        </dd>
+        <dt class = "col-sm-2">
+            @Html.DisplayNameFor(model => model.Price)
+        </dt>
+        <dd class = "col-sm-10">
+            @Html.DisplayFor(model => model.Price)
+        </dd>
+        <dt class = "col-sm-2">
+            <label>Shipping Address</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewBag.address
+        </dd>        
+        <dt class = "col-sm-2">
+            <label>Seller Address</label>
+        </dt>
+        <dd class = "col-sm-10">
+            @ViewBag.sellerAddress
+        </dd>
+    </dl>
+</div>
+<div>
+    <a asp-action="Index">Back to Home</a> | <a asp-controller="account" asp-action="logout">Logout</a>
+</div>

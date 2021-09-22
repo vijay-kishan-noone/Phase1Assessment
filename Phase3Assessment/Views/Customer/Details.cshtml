@@ -1,0 +1,28 @@
+﻿@model Phase3Assessment.Models.Laptop
+
+@{
+    ViewBag.Title = "Laptop Details";
+}
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h2>@Model.Title</h2>
+            </div>
+
+            <div class="card-body text-center">
+                <img class="card-img-top" src="~/images/@Model.ImageUrl" />
+
+                <h4>Price : &#8377;@Model.Price</h4>
+                <h4>Seller: @ViewBag.msg</h4>
+                <p>Description : @Model.Description</p>
+
+            </div>
+            <div class="card-footer text-center">
+                <a asp-action="Index" class="btn btn-danger">Back</a>
+                <a asp-route-id="@Model.Id"asp-action="Payment" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>

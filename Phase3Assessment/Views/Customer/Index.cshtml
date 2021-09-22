@@ -1,0 +1,20 @@
+﻿@model IEnumerable<Phase3Assessment.Models.Laptop>
+
+@{
+    ViewData["Title"] = "Index";
+}
+<div class="card-deck">
+    @foreach (var item in Model)
+    {
+        <div class="card m-3" style="min-width: 18rem; max-width:30.5%;">
+            <div class="card-header">
+                <h3>@item.Title</h3>
+            </div>
+            <img class="card-img-top" src="~/images/@item.ImageUrl" alt="Laptop Image" height="200px"/>
+            <div class="card-footer text-center">
+                <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-primary">Details</a>
+            </div>
+        </div>
+    }
+</div>
+
