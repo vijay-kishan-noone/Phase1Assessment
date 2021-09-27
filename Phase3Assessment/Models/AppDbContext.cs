@@ -14,6 +14,7 @@ namespace Phase3Assessment.Models
 
         }
         public virtual DbSet<Laptop> Laptops { get; set; }
+      
         //protected override void OnModelCreating(ModelBuilder modelBuilder)
         //{
         //    base.OnModelCreating(modelBuilder);

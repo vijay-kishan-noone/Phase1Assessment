@@ -1,0 +1,14 @@
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\bin\Debug\netcoreapp3.1\MiniAssessments.exe
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\bin\Debug\netcoreapp3.1\MiniAssessments.deps.json
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\bin\Debug\netcoreapp3.1\MiniAssessments.runtimeconfig.json
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\bin\Debug\netcoreapp3.1\MiniAssessments.runtimeconfig.dev.json
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\bin\Debug\netcoreapp3.1\MiniAssessments.dll
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\bin\Debug\netcoreapp3.1\MiniAssessments.pdb
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\obj\Debug\netcoreapp3.1\MiniAssessments.csproj.AssemblyReference.cache
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\obj\Debug\netcoreapp3.1\MiniAssessments.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\obj\Debug\netcoreapp3.1\MiniAssessments.AssemblyInfoInputs.cache
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\obj\Debug\netcoreapp3.1\MiniAssessments.AssemblyInfo.cs
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\obj\Debug\netcoreapp3.1\MiniAssessments.csproj.CoreCompileInputs.cache
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\obj\Debug\netcoreapp3.1\MiniAssessments.dll
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\obj\Debug\netcoreapp3.1\MiniAssessments.pdb
+C:\Users\11035974\source\repos\Simplilearn\MiniAssessments\obj\Debug\netcoreapp3.1\MiniAssessments.genruntimeconfig.cache
