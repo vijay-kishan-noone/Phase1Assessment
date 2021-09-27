@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\11035974\\source\\repos\\Simplilearn\\Phase1Assessment\\Phase1Assessment.csproj",
-      "projectName": "Phase1Assessment",
-      "projectPath": "C:\\Users\\11035974\\source\\repos\\Simplilearn\\Phase1Assessment\\Phase1Assessment.csproj",
+      "projectUniqueName": "C:\\Users\\11035974\\source\\repos\\Simplilearn\\MiniAssessments\\MiniAssessments.csproj",
+      "projectName": "MiniAssessments",
+      "projectPath": "C:\\Users\\11035974\\source\\repos\\Simplilearn\\MiniAssessments\\MiniAssessments.csproj",
       "packagesPath": "C:\\Users\\11035974\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\11035974\\source\\repos\\Simplilearn\\Phase1Assessment\\obj\\",
+      "outputPath": "C:\\Users\\11035974\\source\\repos\\Simplilearn\\MiniAssessments\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\11035974\\AppData\\Roaming\\NuGet\\NuGet.Config",
