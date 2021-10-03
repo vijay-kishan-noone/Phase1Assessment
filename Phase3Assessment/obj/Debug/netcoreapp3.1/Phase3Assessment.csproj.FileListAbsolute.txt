@@ -168,3 +168,4 @@ C:\Users\11035974\source\repos\Simplilearn\Phase3Assessment\obj\Debug\netcoreapp
 C:\Users\11035974\source\repos\Simplilearn\Phase3Assessment\obj\Debug\netcoreapp3.1\Razor\Views\Seller\Delete.cshtml.g.cs
 C:\Users\11035974\source\repos\Simplilearn\Phase3Assessment\obj\Debug\netcoreapp3.1\Razor\Views\Seller\Edit.cshtml.g.cs
 C:\Users\11035974\source\repos\Simplilearn\Phase3Assessment\obj\Debug\netcoreapp3.1\Razor\Views\Account\AccessDenied.cshtml.g.cs
+C:\Users\11035974\source\repos\Simplilearn\Phase3Assessment\obj\Debug\netcoreapp3.1\Phase3Assessment.csproj.AssemblyReference.cache
