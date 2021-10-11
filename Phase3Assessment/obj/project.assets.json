@@ -8757,19 +8757,19 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\11035974\\.nuget\\packages\\": {}
+    "C:\\Users\\rootadmin\\.nuget\\packages\\": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\11035974\\source\\repos\\Simplilearn\\Phase3Assessment\\Phase3Assessment.csproj",
+      "projectUniqueName": "C:\\Users\\rootadmin\\source\\repos\\Simplilearn\\Phase3Assessment\\Phase3Assessment.csproj",
       "projectName": "Phase3Assessment",
-      "projectPath": "C:\\Users\\11035974\\source\\repos\\Simplilearn\\Phase3Assessment\\Phase3Assessment.csproj",
-      "packagesPath": "C:\\Users\\11035974\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\11035974\\source\\repos\\Simplilearn\\Phase3Assessment\\obj\\",
+      "projectPath": "C:\\Users\\rootadmin\\source\\repos\\Simplilearn\\Phase3Assessment\\Phase3Assessment.csproj",
+      "packagesPath": "C:\\Users\\rootadmin\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\rootadmin\\source\\repos\\Simplilearn\\Phase3Assessment\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "C:\\Users\\11035974\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\rootadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
