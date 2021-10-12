@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\rootadmin\\source\\repos\\simplilearn\\Phase4Assessment\\Phase4Assessment\\Phase4Assessment.csproj": {}
+    "C:\\Users\\rootadmin\\source\\repos\\Simplilearn\\Phase4Assessment\\Phase4Assessment.csproj": {}
   },
   "projects": {
-    "C:\\Users\\rootadmin\\source\\repos\\simplilearn\\Phase4Assessment\\Phase4Assessment\\Phase4Assessment.csproj": {
+    "C:\\Users\\rootadmin\\source\\repos\\Simplilearn\\Phase4Assessment\\Phase4Assessment.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\rootadmin\\source\\repos\\simplilearn\\Phase4Assessment\\Phase4Assessment\\Phase4Assessment.csproj",
+        "projectUniqueName": "C:\\Users\\rootadmin\\source\\repos\\Simplilearn\\Phase4Assessment\\Phase4Assessment.csproj",
         "projectName": "Phase4Assessment",
-        "projectPath": "C:\\Users\\rootadmin\\source\\repos\\simplilearn\\Phase4Assessment\\Phase4Assessment\\Phase4Assessment.csproj",
+        "projectPath": "C:\\Users\\rootadmin\\source\\repos\\Simplilearn\\Phase4Assessment\\Phase4Assessment.csproj",
         "packagesPath": "C:\\Users\\rootadmin\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\rootadmin\\source\\repos\\simplilearn\\Phase4Assessment\\Phase4Assessment\\obj\\",
+        "outputPath": "C:\\Users\\rootadmin\\source\\repos\\Simplilearn\\Phase4Assessment\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\rootadmin\\AppData\\Roaming\\NuGet\\NuGet.Config",
