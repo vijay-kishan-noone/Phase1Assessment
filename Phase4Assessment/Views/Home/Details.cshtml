@@ -1,0 +1,27 @@
+﻿@model Phase4Assessment.Models.PizzaModel
+
+@{
+    ViewBag.Title = "Laptop Details";
+}
+
+<div class="row justify-content-center m-3">
+    <div class="col-sm-8">
+        <div class="card">
+            <div class="card-header">
+                <h2>@Model.Name</h2>
+            </div>
+
+            <div class="card-body text-center">
+                <img class="card-img-top" src="~/images/@Model.ImageUrl" />
+
+                <h4>Price : &#8377;@Model.Price</h4>
+                <h4>Description : @Model.Description</h4>
+
+            </div>
+            <div class="card-footer text-center">
+                <a asp-action="Index" class="btn btn-danger">Back</a>
+                <a id="buy" asp-route-id="@Model.Id" asp-action="Order" class="btn btn-primary">Buy Now</a>
+            </div>
+        </div>
+    </div>
+</div>

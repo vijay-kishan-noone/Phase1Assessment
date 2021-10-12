@@ -1,0 +1,15 @@
+C:\Users\11035974\source\repos\AutomationTestingProject\bin\Debug\netcoreapp3.1\AutomationTestingProject.exe
+C:\Users\11035974\source\repos\AutomationTestingProject\bin\Debug\netcoreapp3.1\AutomationTestingProject.deps.json
+C:\Users\11035974\source\repos\AutomationTestingProject\bin\Debug\netcoreapp3.1\AutomationTestingProject.runtimeconfig.json
+C:\Users\11035974\source\repos\AutomationTestingProject\bin\Debug\netcoreapp3.1\AutomationTestingProject.runtimeconfig.dev.json
+C:\Users\11035974\source\repos\AutomationTestingProject\bin\Debug\netcoreapp3.1\AutomationTestingProject.dll
+C:\Users\11035974\source\repos\AutomationTestingProject\bin\Debug\netcoreapp3.1\AutomationTestingProject.pdb
+C:\Users\11035974\source\repos\AutomationTestingProject\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\11035974\source\repos\AutomationTestingProject\bin\Debug\netcoreapp3.1\WebDriver.dll
+C:\Users\11035974\source\repos\AutomationTestingProject\obj\Debug\netcoreapp3.1\AutomationTestingProject.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\11035974\source\repos\AutomationTestingProject\obj\Debug\netcoreapp3.1\AutomationTestingProject.AssemblyInfoInputs.cache
+C:\Users\11035974\source\repos\AutomationTestingProject\obj\Debug\netcoreapp3.1\AutomationTestingProject.AssemblyInfo.cs
+C:\Users\11035974\source\repos\AutomationTestingProject\obj\Debug\netcoreapp3.1\AutomationTestingProject.csproj.CoreCompileInputs.cache
+C:\Users\11035974\source\repos\AutomationTestingProject\obj\Debug\netcoreapp3.1\AutomationTestingProject.dll
+C:\Users\11035974\source\repos\AutomationTestingProject\obj\Debug\netcoreapp3.1\AutomationTestingProject.pdb
+C:\Users\11035974\source\repos\AutomationTestingProject\obj\Debug\netcoreapp3.1\AutomationTestingProject.genruntimeconfig.cache
