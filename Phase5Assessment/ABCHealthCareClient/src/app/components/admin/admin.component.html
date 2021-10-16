@@ -1,0 +1,181 @@
+<!-- HEADER -->
+<header>
+    <!-- TOP HEADER -->
+    <div id="top-header">
+      <div class="container">
+        <ul class="header-links pull-left">
+          <li><a routerLink="/admin"><i class="fa fa-phone"></i> +91-9876543210</a></li>
+          <li><a routerLink="/admin"><i class="fa fa-envelope-o"></i> abc@healthcare.com</a></li>
+          <li><a routerLink="/admin"><i class="fa fa-map-marker"></i> MUMBAI</a></li>
+        </ul>
+        <ul class="header-links pull-right">
+            <li><a routerLink="/login"><i class="fa fa-user-o"></i> Logout</a></li>
+        </ul>
+      </div>
+    </div>
+    <!-- /TOP HEADER -->
+  
+    <!-- MAIN HEADER -->
+    <div id="header">
+      <!-- container -->
+      <div class="container">
+        <!-- row -->
+        <div class="row">
+          <!-- LOGO -->
+          <div class="col-md-3">
+            <div class="header-logo">
+              <a routerLink="/admin" class="logo">
+                <img src="../../../assets/img/logo.png" alt="">
+              </a>
+            </div>
+          </div>
+          <!-- /LOGO -->
+        </div>
+        <!-- row -->
+      </div>
+      <!-- container -->
+    </div>
+    <!-- /MAIN HEADER -->
+</header>
+  <!-- /HEADER -->
+<nav id="navigation">
+    <!-- container -->
+    <div class="container">
+      <!-- responsive-nav -->
+      <div id="responsive-nav">
+        <!-- NAV -->
+        <ul class="main-nav nav py-3">
+          <li><a [routerLink]="" (click) = "displayUsers()">Users</a></li>
+          <li><a [routerLink]="" (click) = "displayCategories()">Categories</a></li>
+          <li><a [routerLink]="" (click) = "displayProducts()">Products</a></li>
+        </ul>
+        <!-- /NAV -->
+      </div>
+      <!-- /responsive-nav -->
+    </div>
+    <!-- /container -->
+</nav>
+  <!-- /NAVIGATION -->
+<div class = "container" *ngIf = "showUsers">
+    <div class = "row">
+        <div class="col-md-10">
+            <h2>List of Users</h2>
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th> <th>User Name</th> <th>Email</th><th>First Name</th><th>Last Name</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let e of users'> 
+                        <td>{{e.id}}</td>
+                        <td>{{e.username}}</td>
+                        <td>{{e.email}}</td>
+                        <td>{{e.fname}}</td>
+                        <td>{{e.lname}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class = "container" *ngIf = "showCategories">
+    <div class="row">
+        <div class="col-md-6">
+            <h2>List of Categories</h2>
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th> <th>Title</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let e of categories'> 
+                        <td>{{e.id}}</td>
+                        <td>{{e.title}}</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class = "row">
+        <div class="col-md-8">
+            <table class="table table-bordered">
+                <thead class="thead-dark">
+                <tr>
+                    <th>Title</th> <th>Add Category</th>
+                </tr>
+                </thead>
+                <tbody>
+                    <tr> 
+                        <td><input type="text" [(ngModel)]="categoryToBeAdded.title"></td>
+                        <td><button class="btn btn-danger" (click)="addCategory()">Add Category</button></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<div class = "container" *ngIf = "showProducts">
+    <div class = "row">
+        <div class="col-md-12">
+            <h2>List of Products</h2>
+            <table class="table table-bordered table-hover">
+                <thead class="thead-dark">
+                    <tr>
+                        <th>ID</th> <th>User Name</th> <th>Description</th><th>Price</th><th>Quantity</th><th>Image</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr *ngFor='let e of products'> 
+                        <td>{{e.id}}</td>
+                        <td>{{e.title}}</td>
+                        <td>{{e.description}}</td>
+                        <td>{{e.price | currency:'INR'}}</td>
+                        <td>{{e.quantity}}</td>
+                        <td><img [src]="e.image"alt="e.title" height="60" class="order-1"/></td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-12">
+            <table class="table table-bordered table-hover">
+                <tbody>
+                    <tr>
+                        <td>Product ID</td>
+                        <td><input type="number" [(ngModel)]='productToBeAdded.id'></td>
+                        <td><button (click)='addProduct()'>Create</button></td>
+                    </tr>
+                    <tr>
+                        <td>Title</td>
+                        <td><input type="text" [(ngModel)]='productToBeAdded.title'></td>
+                        <td><button (click)='getProductById()'>Retreive</button></td>
+                    </tr>
+                    <tr>
+                        <td>Description</td>
+                        <td><input type="text" [(ngModel)]='productToBeAdded.description'></td>
+                        <td><button (click)='editProduct()'>Update</button></td>
+                    </tr>
+                    <tr>
+                        <td>Price</td>
+                        <td><input type="number" [(ngModel)]='productToBeAdded.price'></td>
+                        <td><button (click)='deleteProduct()'>Delete</button></td>
+                    </tr>
+                    <tr>
+                        <td>Quantity</td>
+                        <td><input type="number" [(ngModel)]='productToBeAdded.quantity'></td>
+                        <td><button (click)='clearAll()'>Clear All</button></td>
+                    </tr>
+                    <tr>
+                        <td>Image</td>
+                        <td><input type="text" [(ngModel)]='productToBeAdded.image'></td>
+                        <td>Change Link of Image</td>
+                    </tr>
+                </tbody>
+            </table>
+        </div>
+    </div>
+</div>
+<app-footer></app-footer>
